@@ -1,0 +1,16 @@
+ALGORITHM: Calculate the sum of squares of given input of numbers
+
+DECLARE array object to be iArr
+
+FUNCTION sumSquares(iArr)
+	Set sum = 0
+	set idx = 0
+
+	WHILE ( idx < length of array )
+		DO sum = sum + (iArr[idx] x iArr[idx])
+		Increment idx by 1
+	END WHILE
+
+RETURN sum
+
+
